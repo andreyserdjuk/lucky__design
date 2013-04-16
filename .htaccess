@@ -1,0 +1,10 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^lucky-tour.com.ua$
+RewriteRule ^(.*)$ "http\:\/\/www\.lucky-tour\.com\.ua\/$1" [R=302,L]
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php [L]

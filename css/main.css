@@ -1,0 +1,153 @@
+.filters {
+	margin-bottom: 20px;
+}
+
+.btn-showall, .offers {
+	width: 460px;
+}
+
+.btn-showall {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.offers .tours-list {
+	font-size: 13px;
+	margin-left: 0px;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, small, strike, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr {
+	padding: 0;
+	margin: 0;
+}
+
+.offers .tours-list li a, .offers .more A, .tour-page .similar-offers .more {
+display: block;
+height: 30px;
+line-height: 31px;
+margin-bottom: -1px;
+padding: 0 10px;
+text-decoration: none;
+border-bottom: 1px solid #c8d7f0;
+color: #1c1c1c;
+border-top: 1px solid #c8d7f0;
+}
+
+.offers .tours-list .date {
+	width: 100px;
+}
+
+.offers .tours-list a span {
+position: relative;
+display: inline-block;
+cursor: pointer;
+}
+
+.offers .tours-list EM {
+font-style: normal;
+}
+
+.offers .tours-list .nights {
+	width: 140px;
+}
+
+.offers .tours-list .meal {
+width: 30px;
+font-weight: bold;
+color: #368f00;
+}
+
+.offers .tours-list .price {
+	width: 94px;
+	text-align: right;
+	font-weight: bold;
+	color: #0058ba;
+}
+
+.offers ul li {
+}
+
+ol, ul, li {
+list-style: none;
+}
+
+.announce li:hover {
+	background-color: #E8F3FF;
+}
+
+i.link {
+	background: url(/img/link.png);
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-top: 1px;
+	*margin-right: .3em;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+}
+
+.tours-list .cart-ico {
+	margin-left: 40px;
+}
+
+.offers-group h2 .price {
+  float: right;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #E21E33;
+  font-family: arial;
+}
+
+.offers-group h2 a {
+	float: left;
+	color: #1C1C1C;
+	font-family: verdana;
+}
+
+.offers-group h2 {
+	font-size: 20px;
+	font-weight: normal;
+	overflow: hidden;
+	line-height: 22px;
+	/*margin:0;
+	padding: 0;*/
+}
+
+.offers-group h3 {
+	padding-bottom: 5px;
+	font-size: 13px !important;
+	font-weight: normal;
+	color: #A8A8A8;
+	line-height: 20px;
+	margin-top: 10px;
+}
+
+.offers-group .offer {
+	padding: 15px 0 23px 0;
+	border-top: 1px dashed #ccc;
+}
+
+.star {
+	font-family: wingdings;
+}
+.stars {
+	color: #F87700;
+}
+
+.subscribe h3 {
+	line-height: 22px;
+	font-size: 20px;
+	color: #F16900;
+	margin-bottom: 10px;
+}
+
+.subscribe .input-country_code {
+	width: 50px;
+	height: 28px;
+	padding: 0;
+}
+.subscribe .input-phone {
+	width: 110px;
+}
