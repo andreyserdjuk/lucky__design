@@ -246,26 +246,18 @@
 			   			</form>
 			   		</div>
 
-			   		<div class="well sidebar-nav subscribe">
-			   			<h3>Подписка на горящие туры</h3>
+			   		<div class="sidebar-nav subscribe" style="padding:10px;">
+			   			<h3>Новые горящие туры</h3>
 						<form action="/subscribtion" name="subcribe-regular" method="post">
-							<label for="email-input">На e-mail:</label>
-							<input type="email" name="subscribe[email_form][target_value]" id="email-input" value="" placeholder="e-mail">
-
-							<label for="phone-sms">На телефон SMS-кой: <span>Бесплатно!</span></label>
-							<select name="subscription[phone_form][country_code]">
-								<option value="38" selected="selected">+38</option>
-							</select>
-							<input type="tel" name="subscription[phone_form][phone-sms]" id="phone-sms" value="" placeholder="(000) 000-00-00">
-							<input type="hidden" name="subscription[frequency]" value="1">
-							<input type="hidden" name="subscription[receive_promo]" value="1">
-							<input type="hidden" name="subscription[pack_form][star_id]" value="0">
-							<input type="hidden" name="subscription[pack_form][nights]" value="0">
-							<input type="hidden" name="subscription[pack_form][meal_id]" value="0">
-							<input type="hidden" name="subscription[pack_form][price_to]" value="0">
-							<input type="hidden" name="subscription[pack_form][city_id]" value="1">
-							<input type="hidden" name="subscription[pack_form][country_pack_form][country_ids]" value="0">
+							<label for="email-input" class="label-bold">Получать на e-mail:</label>
+							<input type="email" name="email" id="email-input" value="" placeholder="e-mail">
 						</form>
+						<div style="font-weight:bold;">Узнавать в соцсетях:</div>
+						<div>
+							<i class="icon-heart"></i>
+							<i class="icon-flag"></i>
+							<i class="icon-repeat"></i>
+						</div>
 					</div>
 			   	</div>
 

@@ -138,9 +138,12 @@ i.link {
 
 .subscribe h3 {
 	line-height: 22px;
-	font-size: 20px;
+	font-size: 18px;
 	color: #F16900;
 	margin-bottom: 10px;
+}
+.subscribe .label-bold { 
+	font-weight: bold;
 }
 
 .subscribe .input-country_code {
